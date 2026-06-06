@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vijaya Sountharya Thamotharan — UI/UX Designer portfolio. Designing meaningful digital experiences through research, creativity, and user-centered design.">
+  <meta name="keywords" content="UI/UX Designer, Portfolio, Figma, Canva, User Experience, User Interface, Mobile App Design, Web Design">
+  <meta name="author" content="Vijaya Sountharya Thamotharan">
+  <title>Vijaya Sountharya Thamotharan | UI/UX Designer</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+</head>
+<body>
+
+  <!-- Page Loader -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- Cursor Glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <span class="nav-logo-icon">VS</span>
+        <span>Vijaya<span style="color: var(--primary)">.</span></span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="nav-cta">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Contact Me
+        </a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero section" id="hero">
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Open to opportunities
+        </div>
+
+        <h1 class="hero-name">
+          Hi, I'm<br>
+          <span class="gradient-text">Vijaya Sountharya</span><br>
+          Thamotharan
+        </h1>
+
+        <p class="hero-title">UI/UX Designer & EEE Student</p>
+
+        <p class="hero-description">
+          Passionate about creating intuitive, accessible, and engaging digital experiences. 
+          I transform ideas into user-friendly solutions through research, creativity, and thoughtful design.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#work" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            View My Work
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Contact Me
+          </a>
+          <a href="#" class="btn btn-ghost" id="downloadResumeBtn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Resume
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-number">3+</div>
+            <div class="hero-stat-label">Case Studies</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-number">10+</div>
+            <div class="hero-stat-label">Skills</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-number">100%</div>
+            <div class="hero-stat-label">Passion</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-container">
+          <div class="hero-image-ring"></div>
+          <div class="hero-image">
+            <img src="assets/images/profile-avatar.png" alt="Vijaya Sountharya Thamotharan - UI/UX Designer" loading="eager">
+          </div>
+          <div class="hero-float-badge">
+            <div class="badge-icon badge-figma">🎨</div>
+            <span>Figma</span>
+          </div>
+          <div class="hero-float-badge">
+            <div class="badge-icon badge-canva">✏️</div>
+            <span>Canva</span>
+          </div>
+          <div class="hero-float-badge">
+            <div class="badge-icon badge-ux">💡</div>
+            <span>UX Research</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          About Me
+        </span>
+        <h2 class="section-title">Designing With Purpose & Empathy</h2>
+        <p class="section-subtitle">Getting to know the person behind the designs</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image-area reveal">
+          <div class="about-image-card">
+            <img src="assets/images/profile-avatar.png" alt="Vijaya Sountharya designing">
+          </div>
+          <div class="about-quote-card">
+            <div class="quote-icon">"</div>
+            <p>Design is not just what it looks like. Design is how it works — and more importantly, how it makes people feel.</p>
+          </div>
+        </div>
+
+        <div class="about-content reveal reveal-delay-1">
+          <h3>Welcome to My Portfolio</h3>
+          <p>
+            I am <strong>Vijaya Sountharya Thamotharan</strong>, a UI/UX Designer and Electrical & Electronics Engineering student 
+            passionate about creating intuitive, accessible, and engaging digital experiences. Through <strong>Figma</strong> and 
+            <strong>Canva</strong>, I transform ideas into user-friendly interfaces while focusing on usability, inclusivity, 
+            accessibility, and visual design.
+          </p>
+          <p>
+            My journey into UI/UX design began with a deep curiosity about how people interact with technology. Coming from an 
+            engineering background, I bring a unique analytical perspective to design challenges, combining systematic thinking 
+            with creative problem-solving. I believe that great design should be invisible — it should feel so natural that 
+            users don't even notice it.
+          </p>
+          <p>
+            My design philosophy centers around empathy and inclusion. Every design decision I make starts with understanding 
+            the user — their needs, frustrations, and goals. I aspire to bridge the gap between technology and people, creating 
+            digital products that are not only beautiful but truly meaningful and accessible to everyone.
+          </p>
+
+          <div class="about-highlights">
+            <div class="about-highlight-card">
+              <div class="card-icon">🎯</div>
+              <h4>Design Philosophy</h4>
+              <p>Empathy-driven, user-first approach to every project</p>
+            </div>
+            <div class="about-highlight-card">
+              <div class="card-icon">🚀</div>
+              <h4>Career Goals</h4>
+              <p>Aspiring to create impactful digital products at scale</p>
+            </div>
+            <div class="about-highlight-card">
+              <div class="card-icon">💡</div>
+              <h4>What Drives Me</h4>
+              <p>Solving real-world problems through thoughtful design</p>
+            </div>
+            <div class="about-highlight-card">
+              <div class="card-icon">📚</div>
+              <h4>Always Learning</h4>
+              <p>Continuously growing through courses and challenges</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CASE STUDIES SECTION ========== -->
+  <section class="section" id="work">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          Featured Work
+        </span>
+        <h2 class="section-title">Case Studies & Projects</h2>
+        <p class="section-subtitle">Detailed deep dives into my design process and thinking</p>
+      </div>
+
+      <!-- Case Study 1: Chibi Avatar -->
+      <div class="case-study-card reveal">
+        <div class="case-study-image">
+          <img src="assets/images/case-study-chibi.png" alt="Chibi Avatar Design System Preview">
+        </div>
+        <div class="case-study-content">
+          <div class="case-study-number">01</div>
+          <span class="case-study-tag">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+            Design System
+          </span>
+          <h3>Chibi Avatar Design System</h3>
+          <h4>Inclusive and Emotionally Positive Digital Representation System</h4>
+
+          <div class="case-study-highlights">
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Designed a scalable SVG-based avatar library</span>
+            </div>
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Supported diverse identities and representations</span>
+            </div>
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Created a structured design system for consistency</span>
+            </div>
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Focused on accessibility and inclusiveness</span>
+            </div>
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Built avatar customization workflows</span>
+            </div>
+          </div>
+
+          <div class="case-study-sections">
+            <span class="case-study-section-tag">Overview</span>
+            <span class="case-study-section-tag">Problem</span>
+            <span class="case-study-section-tag">Research</span>
+            <span class="case-study-section-tag">Diversity Matrix</span>
+            <span class="case-study-section-tag">Wireframes</span>
+            <span class="case-study-section-tag">Design System</span>
+            <span class="case-study-section-tag">Final Screens</span>
+            <span class="case-study-section-tag">Outcomes</span>
+          </div>
+
+          <a href="#" class="case-study-link">
+            View Full Case Study
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Case Study 2: Travel App -->
+      <div class="case-study-card reveal">
+        <div class="case-study-image">
+          <img src="assets/images/case-study-travel.png" alt="Explore Travel App Preview">
+        </div>
+        <div class="case-study-content">
+          <div class="case-study-number">02</div>
+          <span class="case-study-tag">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z"/></svg>
+            Mobile App Design
+          </span>
+          <h3>Explore Travel Mobile App</h3>
+          <h4>Helping Users Discover Nearby Places and Experiences</h4>
+
+          <div class="case-study-highlights">
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Conducted user research and journey mapping</span>
+            </div>
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Designed intuitive navigation flows</span>
+            </div>
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Personalized travel discovery experience</span>
+            </div>
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Built interactive prototypes in Figma</span>
+            </div>
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Created modern mobile interfaces</span>
+            </div>
+          </div>
+
+          <div class="case-study-sections">
+            <span class="case-study-section-tag">Overview</span>
+            <span class="case-study-section-tag">Research</span>
+            <span class="case-study-section-tag">Personas</span>
+            <span class="case-study-section-tag">Journey Map</span>
+            <span class="case-study-section-tag">Wireframes</span>
+            <span class="case-study-section-tag">UI Design</span>
+            <span class="case-study-section-tag">Prototype</span>
+            <span class="case-study-section-tag">Testing</span>
+          </div>
+
+          <a href="#" class="case-study-link">
+            View Full Case Study
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Case Study 3: E-Commerce -->
+      <div class="case-study-card reveal">
+        <div class="case-study-image">
+          <img src="assets/images/case-study-ecommerce.png" alt="E-Commerce App Redesign Preview">
+        </div>
+        <div class="case-study-content">
+          <div class="case-study-number">03</div>
+          <span class="case-study-tag">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            UX Redesign
+          </span>
+          <h3>E-Commerce App Redesign</h3>
+          <h4>Improving Shopping Experience Through Better UX</h4>
+
+          <div class="case-study-highlights">
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Identified usability issues through UX audit</span>
+            </div>
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Redesigned product discovery experience</span>
+            </div>
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Improved checkout flow and conversion</span>
+            </div>
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Enhanced accessibility and visual hierarchy</span>
+            </div>
+            <div class="case-study-highlight">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Optimized navigation and search patterns</span>
+            </div>
+          </div>
+
+          <div class="case-study-sections">
+            <span class="case-study-section-tag">Overview</span>
+            <span class="case-study-section-tag">UX Audit</span>
+            <span class="case-study-section-tag">Problems</span>
+            <span class="case-study-section-tag">Competitor Analysis</span>
+            <span class="case-study-section-tag">Wireframes</span>
+            <span class="case-study-section-tag">Final UI</span>
+            <span class="case-study-section-tag">Prototype</span>
+            <span class="case-study-section-tag">Results</span>
+          </div>
+
+          <a href="#" class="case-study-link">
+            View Full Case Study
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Why These Case Studies Matter -->
+      <div class="case-studies-why reveal">
+        <h3>Why These Case Studies Matter</h3>
+        <p>
+          These projects demonstrate my ability to solve real user problems through research, 
+          wireframing, prototyping, and visual design. Each case study showcases my complete design process:
+        </p>
+        <div class="process-flow-mini">
+          <span>Research</span><span class="arrow">→</span>
+          <span>Ideation</span><span class="arrow">→</span>
+          <span>Wireframing</span><span class="arrow">→</span>
+          <span>UI Design</span><span class="arrow">→</span>
+          <span>Prototyping</span><span class="arrow">→</span>
+          <span>Testing</span><span class="arrow">→</span>
+          <span>Final Solution</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DESIGN PROCESS SECTION ========== -->
+  <section class="process section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          My Process
+        </span>
+        <h2 class="section-title">How I Design</h2>
+        <p class="section-subtitle">A structured approach to solving design problems with empathy and creativity</p>
+      </div>
+
+      <div class="process-timeline">
+        <div class="process-step reveal">
+          <div class="process-step-number">1</div>
+          <div class="process-step-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <h4>Research</h4>
+          <p>Understanding users, market, and context</p>
+        </div>
+
+        <div class="process-step reveal reveal-delay-1">
+          <div class="process-step-number">2</div>
+          <div class="process-step-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h4>Ideation</h4>
+          <p>Brainstorming creative solutions</p>
+        </div>
+
+        <div class="process-step reveal reveal-delay-2">
+          <div class="process-step-number">3</div>
+          <div class="process-step-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <h4>User Personas</h4>
+          <p>Defining target user archetypes</p>
+        </div>
+
+        <div class="process-step reveal reveal-delay-3">
+          <div class="process-step-number">4</div>
+          <div class="process-step-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h4>User Flows</h4>
+          <p>Mapping journeys and interactions</p>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="process-step-number">5</div>
+          <div class="process-step-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+          </div>
+          <h4>Wireframing</h4>
+          <p>Creating low-fidelity structures</p>
+        </div>
+
+        <div class="process-step reveal reveal-delay-1">
+          <div class="process-step-number">6</div>
+          <div class="process-step-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+          </div>
+          <h4>UI Design</h4>
+          <p>Crafting high-fidelity visuals</p>
+        </div>
+
+        <div class="process-step reveal reveal-delay-2">
+          <div class="process-step-number">7</div>
+          <div class="process-step-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h4>Prototyping</h4>
+          <p>Building interactive prototypes</p>
+        </div>
+
+        <div class="process-step reveal reveal-delay-3">
+          <div class="process-step-number">8</div>
+          <div class="process-step-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+          <h4>Testing</h4>
+          <p>Validating through user feedback</p>
+        </div>
+
+        <div class="process-step reveal reveal-delay-4">
+          <div class="process-step-number">9</div>
+          <div class="process-step-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <h4>Final Solution</h4>
+          <p>Polished, user-centered design</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Skills
+        </span>
+        <h2 class="section-title">Tools & Expertise</h2>
+        <p class="section-subtitle">The tools and methodologies I use to create exceptional user experiences</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Design Tools -->
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <div class="skill-category-icon tools">🛠️</div>
+            <h3>Design Tools</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-dot"></span>
+              <span>Figma</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-dot"></span>
+              <span>Canva</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- UX Skills -->
+        <div class="skill-category reveal reveal-delay-1">
+          <div class="skill-category-header">
+            <div class="skill-category-icon ux">🧠</div>
+            <h3>UX Skills</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-dot"></span>
+              <span>User Research</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-dot"></span>
+              <span>User Flows</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-dot"></span>
+              <span>Information Architecture</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-dot"></span>
+              <span>Wireframing</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-dot"></span>
+              <span>Prototyping</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-dot"></span>
+              <span>Usability Testing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- UI Skills -->
+        <div class="skill-category reveal reveal-delay-2">
+          <div class="skill-category-header">
+            <div class="skill-category-icon ui">🎨</div>
+            <h3>UI Skills</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span class="skill-dot"></span>
+              <span>Mobile App Design</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-dot"></span>
+              <span>Web Design</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-dot"></span>
+              <span>Design Systems</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-dot"></span>
+              <span>Visual Design</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-dot"></span>
+              <span>Accessibility Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATIONS SECTION ========== -->
+  <section class="certifications section" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+          Achievements
+        </span>
+        <h2 class="section-title">Certifications & Growth</h2>
+        <p class="section-subtitle">Continuous learning and professional development milestones</p>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon">📜</div>
+          <h4>UI/UX Design Courses</h4>
+          <p>Completed comprehensive UI/UX design courses covering end-to-end design thinking, wireframing, prototyping, and visual design principles.</p>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-1">
+          <div class="cert-icon">🏆</div>
+          <h4>Design Challenges</h4>
+          <p>Participated in multiple design challenges to sharpen skills, explore new design patterns, and push creative boundaries under constraints.</p>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-2">
+          <div class="cert-icon">🎓</div>
+          <h4>Workshops & Seminars</h4>
+          <p>Attended hands-on workshops on Figma, design systems, accessibility, and user research methodologies from industry professionals.</p>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-3">
+          <div class="cert-icon">💻</div>
+          <h4>Hackathons</h4>
+          <p>Collaborated in hackathons combining engineering and design skills to create innovative solutions within tight deadlines.</p>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">🎖️</div>
+          <h4>College Achievements</h4>
+          <p>Recognized for outstanding performance in academic projects, technical events, and design-related activities at the university level.</p>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-1">
+          <div class="cert-icon">🏅</div>
+          <h4>Design Competitions</h4>
+          <p>Competed in design competitions demonstrating creative problem-solving, visual storytelling, and user-centered design thinking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS SECTION ========== -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Testimonials
+        </span>
+        <h2 class="section-title">What People Say</h2>
+        <p class="section-subtitle">Feedback from mentors, faculty, and collaborators</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-quote-icon">"</div>
+          <p>
+            Vijaya demonstrates exceptional attention to detail in her design work. Her ability to empathize with users 
+            and translate their needs into intuitive interfaces is remarkable for someone at her stage of learning.
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">MR</div>
+            <div class="testimonial-info">
+              <h4>Faculty Mentor</h4>
+              <span>Design & Innovation Department</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-1">
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-quote-icon">"</div>
+          <p>
+            Working with Vijaya on team projects has been a great experience. She brings a unique perspective combining 
+            her engineering mindset with creative design thinking. Always eager to learn and contribute meaningfully.
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">TP</div>
+            <div class="testimonial-info">
+              <h4>Team Collaborator</h4>
+              <span>University Design Project</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-quote-icon">"</div>
+          <p>
+            Vijaya's dedication to understanding user needs before jumping into design solutions sets her apart. Her 
+            research-driven approach and attention to accessibility show real maturity in her design practice.
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">SK</div>
+            <div class="testimonial-info">
+              <h4>Workshop Instructor</h4>
+              <span>UI/UX Design Workshop</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-1">
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-quote-icon">"</div>
+          <p>
+            A promising designer who consistently delivers thoughtful solutions. Vijaya's willingness to iterate based 
+            on feedback and her commitment to continuous learning make her an excellent candidate for any design role.
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AK</div>
+            <div class="testimonial-info">
+              <h4>Senior Designer Mentor</h4>
+              <span>Industry Mentorship Program</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RECRUITER NOTE ========== -->
+  <section class="section" id="recruiter-note">
+    <div class="container">
+      <div class="recruiter-note reveal">
+        <div class="recruiter-note-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <h3>A Note for Recruiters</h3>
+        <p>
+          Recruiters often spend more time reviewing detailed case studies than visual styling alone. 
+          This portfolio focuses on documenting practical UI/UX thinking and design maturity through:
+        </p>
+        <div class="recruiter-highlights">
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            User Research
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Design Decisions
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Iterations
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Problem-Solving
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Final Outcomes
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get In Touch
+        </span>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-subtitle">Let's create meaningful experiences together</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Let's Connect</h3>
+          <p>
+            I'm always excited to discuss new design opportunities, collaborate on interesting projects, 
+            or simply chat about UI/UX design. Feel free to reach out through any of the channels below 
+            or fill out the contact form.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:vijayasountharya@email.com" class="contact-link-card" id="contactEmail">
+              <div class="contact-link-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>vijayasountharya@email.com</p>
+              </div>
+            </a>
+
+            <a href="https://linkedin.com/in/vijayasountharya" class="contact-link-card" id="contactLinkedIn" target="_blank" rel="noopener">
+              <div class="contact-link-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div>
+                <h4>LinkedIn</h4>
+                <p>linkedin.com/in/vijayasountharya</p>
+              </div>
+            </a>
+
+            <a href="https://behance.net/vijayasountharya" class="contact-link-card" id="contactBehance" target="_blank" rel="noopener">
+              <div class="contact-link-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </div>
+              <div>
+                <h4>Behance</h4>
+                <p>behance.net/vijayasountharya</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="contact-downloads">
+            <a href="#" class="btn btn-ghost" id="downloadPortfolioPdf">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              Portfolio PDF
+            </a>
+            <a href="#" class="btn btn-ghost" id="downloadResumeContact">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download Resume
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form reveal reveal-delay-1">
+          <h3>Send a Message</h3>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contactName">Your Name</label>
+                <input type="text" id="contactName" name="name" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="contactEmailInput">Your Email</label>
+                <input type="email" id="contactEmailInput" name="email" placeholder="john@example.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contactSubject">Subject</label>
+              <input type="text" id="contactSubject" name="subject" placeholder="Design collaboration opportunity">
+            </div>
+            <div class="form-group">
+              <label for="contactMessage">Message</label>
+              <textarea id="contactMessage" name="message" placeholder="Tell me about your project or opportunity..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="contactSubmitBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Vijaya Sountharya Thamotharan</h3>
+          <p>
+            Designing meaningful digital experiences through research, creativity, and user-centered design. 
+            Always learning, always growing.
+          </p>
+          <div class="footer-social" style="margin-top: var(--space-lg);">
+            <a href="https://linkedin.com/in/vijayasountharya" class="footer-social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://behance.net/vijayasountharya" class="footer-social-link" aria-label="Behance" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </a>
+            <a href="mailto:vijayasountharya@email.com" class="footer-social-link" aria-label="Email">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="#about">About Me</a>
+            <a href="#work">Case Studies</a>
+            <a href="#process">My Process</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Case Studies</h4>
+          <div class="footer-links">
+            <a href="#">Chibi Avatar Design System</a>
+            <a href="#">Explore Travel App</a>
+            <a href="#">E-Commerce Redesign</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Vijaya Sountharya Thamotharan. Designed with 💜 and Figma.</p>
+        <p>UI/UX Designer & EEE Student</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
